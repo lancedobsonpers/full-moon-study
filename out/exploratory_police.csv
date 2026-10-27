@@ -1,0 +1,10 @@
+unit,test,pct,p_placebo
+seattle,full_window,-0.16,0.5883
+seattle,new_window,0.51,0.079
+seattle,full_vs_new,-0.67,0.1272
+nola,full_window,-0.53,0.2603
+nola,new_window,1.85,0.0006
+nola,full_vs_new,-2.34,0.0014
+both,full_window,-0.33,0.2112
+both,new_window,1.15,0.0002
+both,full_vs_new,-1.46,0.0004

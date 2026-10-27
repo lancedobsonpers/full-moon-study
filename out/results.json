@@ -1,0 +1,611 @@
+{
+ "primary": {
+  "mood": {
+   "n_days": 5367,
+   "units": [
+    "hedonometer"
+   ],
+   "window_share": 0.10154648779578908,
+   "stat": -6.798506543681059e-05,
+   "p_placebo": 0.9633036696330367,
+   "points": -6.82143935222708e-05,
+   "lo": -0.0023518641031086878,
+   "hi": 0.002215435316064146,
+   "share_of_daily_swing": -0.0029368288152544397,
+   "resid_sd": 0.023227228351871392,
+   "by_year": {
+    "years": [
+     {
+      "year": 2008,
+      "effect": -0.0062993496451126075,
+      "claimed_direction": true
+     },
+     {
+      "year": 2009,
+      "effect": -0.0017436770048276603,
+      "claimed_direction": true
+     },
+     {
+      "year": 2010,
+      "effect": -0.0025215946325347714,
+      "claimed_direction": true
+     },
+     {
+      "year": 2011,
+      "effect": -6.472188100709062e-05,
+      "claimed_direction": true
+     },
+     {
+      "year": 2012,
+      "effect": -0.0005547565696391042,
+      "claimed_direction": true
+     },
+     {
+      "year": 2013,
+      "effect": 0.004778604021628161,
+      "claimed_direction": false
+     },
+     {
+      "year": 2014,
+      "effect": -0.00015482784384756936,
+      "claimed_direction": true
+     },
+     {
+      "year": 2015,
+      "effect": 0.0028666901031327813,
+      "claimed_direction": false
+     },
+     {
+      "year": 2016,
+      "effect": 7.077897751629402e-05,
+      "claimed_direction": false
+     },
+     {
+      "year": 2017,
+      "effect": -5.690004861082996e-05,
+      "claimed_direction": true
+     },
+     {
+      "year": 2018,
+      "effect": -0.0018987031380159189,
+      "claimed_direction": true
+     },
+     {
+      "year": 2019,
+      "effect": -0.007367377142147665,
+      "claimed_direction": true
+     },
+     {
+      "year": 2020,
+      "effect": 0.0066360753018191035,
+      "claimed_direction": false
+     },
+     {
+      "year": 2021,
+      "effect": -0.005261915710673214,
+      "claimed_direction": true
+     },
+     {
+      "year": 2022,
+      "effect": 0.0030907689996178835,
+      "claimed_direction": false
+     },
+     {
+      "year": 2023,
+      "effect": 0.006810385372170938,
+      "claimed_direction": false
+     }
+    ],
+    "n_years": 16,
+    "n_claimed": 10,
+    "sign_test_p": 0.454498291015625
+   },
+   "predictive": {
+    "train_until": "2018-12-31",
+    "test_from": "2019-01-01",
+    "real_gain": -6.90486069302587e-05,
+    "beats_share_of_placebos": 0.507,
+    "predictive": false
+   },
+   "p_holm": 1.0
+  },
+  "violence": {
+   "n_days": 16799,
+   "units": [
+    "chicago",
+    "nyc"
+   ],
+   "window_share": 0.1016131912613846,
+   "stat": -0.0035384054662751384,
+   "p_placebo": 0.3231676832316768,
+   "pct": -0.4074648737092956,
+   "lo": -0.9691815953870808,
+   "hi": 0.15743798416827381,
+   "by_year": {
+    "years": [
+     {
+      "year": 2001,
+      "effect": 1.5439340083912567,
+      "claimed_direction": true
+     },
+     {
+      "year": 2002,
+      "effect": 2.5347048449616993,
+      "claimed_direction": true
+     },
+     {
+      "year": 2003,
+      "effect": 2.749589807691355,
+      "claimed_direction": true
+     },
+     {
+      "year": 2004,
+      "effect": -2.235916948727701,
+      "claimed_direction": false
+     },
+     {
+      "year": 2005,
+      "effect": -1.6439889275209674,
+      "claimed_direction": false
+     },
+     {
+      "year": 2006,
+      "effect": -2.6477486123740346,
+      "claimed_direction": false
+     },
+     {
+      "year": 2007,
+      "effect": -3.1711713746545023,
+      "claimed_direction": false
+     },
+     {
+      "year": 2008,
+      "effect": -1.4381973936335224,
+      "claimed_direction": false
+     },
+     {
+      "year": 2009,
+      "effect": 1.1812809526730916,
+      "claimed_direction": true
+     },
+     {
+      "year": 2010,
+      "effect": -1.3286399675763283,
+      "claimed_direction": false
+     },
+     {
+      "year": 2011,
+      "effect": 1.9483936784754574,
+      "claimed_direction": true
+     },
+     {
+      "year": 2012,
+      "effect": -2.336635762934325,
+      "claimed_direction": false
+     },
+     {
+      "year": 2013,
+      "effect": 1.003848022655518,
+      "claimed_direction": true
+     },
+     {
+      "year": 2014,
+      "effect": 1.3057248925164577,
+      "claimed_direction": true
+     },
+     {
+      "year": 2015,
+      "effect": -1.7347599911375355,
+      "claimed_direction": false
+     },
+     {
+      "year": 2016,
+      "effect": 1.313977594605853,
+      "claimed_direction": true
+     },
+     {
+      "year": 2017,
+      "effect": -1.7742289911339637,
+      "claimed_direction": false
+     },
+     {
+      "year": 2018,
+      "effect": -2.1542261121210604,
+      "claimed_direction": false
+     },
+     {
+      "year": 2019,
+      "effect": -2.930388734278344,
+      "claimed_direction": false
+     },
+     {
+      "year": 2020,
+      "effect": -1.0919333961649569,
+      "claimed_direction": false
+     },
+     {
+      "year": 2021,
+      "effect": 3.280733923967505,
+      "claimed_direction": true
+     },
+     {
+      "year": 2022,
+      "effect": 0.5367819637949411,
+      "claimed_direction": true
+     },
+     {
+      "year": 2023,
+      "effect": 0.1567250154976607,
+      "claimed_direction": true
+     },
+     {
+      "year": 2024,
+      "effect": 0.28812458253302253,
+      "claimed_direction": true
+     },
+     {
+      "year": 2025,
+      "effect": 0.8865975452501562,
+      "claimed_direction": true
+     },
+     {
+      "year": 2026,
+      "effect": -2.2418884790648907,
+      "claimed_direction": false
+     }
+    ],
+    "n_years": 26,
+    "n_claimed": 13,
+    "sign_test_p": 1.0
+   },
+   "predictive": {
+    "train_until": "2018-12-31",
+    "test_from": "2019-01-01",
+    "real_gain": -0.9345754098650332,
+    "beats_share_of_placebos": 0.3816,
+    "predictive": false
+   },
+   "p_holm": 0.9695030496950305
+  },
+  "police": {
+   "n_days": 10771,
+   "units": [
+    "seattle",
+    "nola"
+   ],
+   "window_share": 0.10166186983566985,
+   "stat": -0.00334779524671932,
+   "p_placebo": 0.2226777322267773,
+   "pct": -0.37237398940338506,
+   "lo": -0.8389531514946258,
+   "hi": 0.096400552037057,
+   "by_year": {
+    "years": [
+     {
+      "year": 2010,
+      "effect": 0.5782651402171268,
+      "claimed_direction": true
+     },
+     {
+      "year": 2011,
+      "effect": -0.01783554283534272,
+      "claimed_direction": false
+     },
+     {
+      "year": 2012,
+      "effect": -1.191838254927935,
+      "claimed_direction": false
+     },
+     {
+      "year": 2013,
+      "effect": -0.24250402451375663,
+      "claimed_direction": false
+     },
+     {
+      "year": 2014,
+      "effect": 0.26062109476894246,
+      "claimed_direction": true
+     },
+     {
+      "year": 2015,
+      "effect": -1.192375564663395,
+      "claimed_direction": false
+     },
+     {
+      "year": 2016,
+      "effect": -2.0754776462759694,
+      "claimed_direction": false
+     },
+     {
+      "year": 2017,
+      "effect": 0.4197524442753897,
+      "claimed_direction": true
+     },
+     {
+      "year": 2018,
+      "effect": 0.3303946501598931,
+      "claimed_direction": true
+     },
+     {
+      "year": 2019,
+      "effect": 0.5317718122242798,
+      "claimed_direction": true
+     },
+     {
+      "year": 2020,
+      "effect": 1.6961330909355254,
+      "claimed_direction": true
+     },
+     {
+      "year": 2021,
+      "effect": 1.4889795158471664,
+      "claimed_direction": true
+     },
+     {
+      "year": 2022,
+      "effect": -2.6921936867610796,
+      "claimed_direction": false
+     },
+     {
+      "year": 2023,
+      "effect": -1.7307907281565171,
+      "claimed_direction": false
+     },
+     {
+      "year": 2024,
+      "effect": 0.44523072500506355,
+      "claimed_direction": true
+     },
+     {
+      "year": 2025,
+      "effect": -0.5716120590144036,
+      "claimed_direction": false
+     },
+     {
+      "year": 2026,
+      "effect": -1.8446818215270167,
+      "claimed_direction": false
+     }
+    ],
+    "n_years": 17,
+    "n_claimed": 8,
+    "sign_test_p": 1.0
+   },
+   "predictive": {
+    "train_until": "2021-12-31",
+    "test_from": "2022-01-01",
+    "real_gain": -0.6919306210480158,
+    "beats_share_of_placebos": 0.4446,
+    "predictive": false
+   },
+   "p_holm": 0.8907109289071092
+  },
+  "er": {
+   "n_days": 7305,
+   "units": [
+    "neiss"
+   ],
+   "window_share": 0.10143737166324435,
+   "stat": 0.0005123024600876594,
+   "p_placebo": 0.8262173782621738,
+   "pct": 0.05716580540828797,
+   "lo": -0.340651732959929,
+   "hi": 0.4565713412557626,
+   "by_year": {
+    "years": [
+     {
+      "year": 2006,
+      "effect": 0.8121410517707206,
+      "claimed_direction": true
+     },
+     {
+      "year": 2007,
+      "effect": -2.3877092079836792,
+      "claimed_direction": false
+     },
+     {
+      "year": 2008,
+      "effect": 0.3438814075336971,
+      "claimed_direction": true
+     },
+     {
+      "year": 2009,
+      "effect": 1.866248567692974,
+      "claimed_direction": true
+     },
+     {
+      "year": 2010,
+      "effect": 0.8779812395592002,
+      "claimed_direction": true
+     },
+     {
+      "year": 2011,
+      "effect": 0.36319068867674,
+      "claimed_direction": true
+     },
+     {
+      "year": 2012,
+      "effect": -1.4436187877128526,
+      "claimed_direction": false
+     },
+     {
+      "year": 2013,
+      "effect": 1.0398791717940448,
+      "claimed_direction": true
+     },
+     {
+      "year": 2014,
+      "effect": -0.456746349377668,
+      "claimed_direction": false
+     },
+     {
+      "year": 2015,
+      "effect": -1.775093667722838,
+      "claimed_direction": false
+     },
+     {
+      "year": 2016,
+      "effect": 1.2914518142021159,
+      "claimed_direction": true
+     },
+     {
+      "year": 2017,
+      "effect": 0.5520850704503477,
+      "claimed_direction": true
+     },
+     {
+      "year": 2018,
+      "effect": -1.397819597306127,
+      "claimed_direction": false
+     },
+     {
+      "year": 2019,
+      "effect": -1.2733788179371541,
+      "claimed_direction": false
+     },
+     {
+      "year": 2020,
+      "effect": 1.1264217892028805,
+      "claimed_direction": true
+     },
+     {
+      "year": 2021,
+      "effect": -0.09553892711776646,
+      "claimed_direction": false
+     },
+     {
+      "year": 2022,
+      "effect": 1.1746804374386022,
+      "claimed_direction": true
+     },
+     {
+      "year": 2023,
+      "effect": -1.2508729776469218,
+      "claimed_direction": false
+     },
+     {
+      "year": 2024,
+      "effect": 1.1748655819584952,
+      "claimed_direction": true
+     },
+     {
+      "year": 2025,
+      "effect": 0.8188075254491611,
+      "claimed_direction": true
+     }
+    ],
+    "n_years": 20,
+    "n_claimed": 12,
+    "sign_test_p": 0.5034446716308594
+   },
+   "predictive": {
+    "train_until": "2018-12-31",
+    "test_from": "2019-01-01",
+    "real_gain": -0.3091786308115161,
+    "beats_share_of_placebos": 0.4695,
+    "predictive": false
+   },
+   "p_holm": 1.0
+  }
+ },
+ "secondary": {
+  "mood:exact_day": {
+   "stat": 0.00022113163422831029,
+   "p_placebo": 0.8952104789521048,
+   "points": 0.0002219435865320439,
+   "lo": -0.002711480864458237,
+   "hi": 0.0031553680375223246,
+   "share_of_daily_swing": 0.009555329928580259,
+   "resid_sd": 0.023227202848140747,
+   "p_holm": 1.0
+  },
+  "mood:illumination": {
+   "stat": 0.00015956164382641957,
+   "p_placebo": 0.9362063793620637,
+   "p_holm": 1.0
+  },
+  "mood:full_vs_new": {
+   "stat": -0.0020195872117340064,
+   "p_placebo": 0.34966503349665035,
+   "p_holm": 1.0
+  },
+  "violence:exact_day": {
+   "stat": -0.005066074213186734,
+   "p_placebo": 0.32196780321967805,
+   "pct": -0.5244458601298629,
+   "lo": -1.460227689050786,
+   "hi": 0.42022261030445485,
+   "p_holm": 1.0
+  },
+  "violence:illumination": {
+   "stat": -0.005680715522002978,
+   "p_placebo": 0.1835816418358164,
+   "p_holm": 1.0
+  },
+  "violence:full_vs_new": {
+   "stat": -0.009053619678199894,
+   "p_placebo": 0.10058994100589941,
+   "p_holm": 1.0
+  },
+  "police:exact_day": {
+   "stat": -0.002616243204150557,
+   "p_placebo": 0.5073492650734927,
+   "pct": -0.2713806863001489,
+   "lo": -1.0496028800062507,
+   "hi": 0.5129620465892604,
+   "p_holm": 1.0
+  },
+  "police:illumination": {
+   "stat": -0.009994691772450437,
+   "p_placebo": 0.0017998200179982,
+   "p_holm": 0.0251974802519748
+  },
+  "police:full_vs_new": {
+   "stat": -0.014734203172854416,
+   "p_placebo": 0.0007999200079992001,
+   "p_holm": 0.011998800119988003
+  },
+  "er:exact_day": {
+   "stat": -0.0004004463535197168,
+   "p_placebo": 0.9003099690030997,
+   "pct": -0.04152448381187224,
+   "lo": -0.704659864662216,
+   "hi": 0.6260395895907545,
+   "p_holm": 1.0
+  },
+  "er:illumination": {
+   "stat": 0.0006837566906064175,
+   "p_placebo": 0.8078192180781922,
+   "p_holm": 1.0
+  },
+  "er:full_vs_new": {
+   "stat": 0.0006071767876310527,
+   "p_placebo": 0.8628137186281372,
+   "p_holm": 1.0
+  },
+  "violence:night": {
+   "stat": -0.0024962936610240277,
+   "p_placebo": 0.5803419658034197,
+   "pct": -0.30152580473057355,
+   "lo": -1.0289151267257601,
+   "hi": 0.431209474888794,
+   "p_holm": 1.0
+  },
+  "police:night": {
+   "stat": -0.0034825619161211008,
+   "p_placebo": 0.37806219378062195,
+   "pct": -0.3932040976951656,
+   "lo": -1.0620550244944904,
+   "hi": 0.2801684670095339,
+   "p_holm": 1.0
+  },
+  "births:window": {
+   "stat": 0.0014691586352807312,
+   "p_placebo": 0.3310668933106689,
+   "pct": 0.16431020408034236,
+   "lo": -0.15482606495539342,
+   "hi": 0.4844665320153041,
+   "p_holm": 1.0
+  }
+ }
+}
